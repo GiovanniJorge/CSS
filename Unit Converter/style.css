@@ -1,0 +1,42 @@
+body {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+h1 {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  width: 150px;
+}
+
+input {
+  border-radius: 7px;
+  margin-bottom: 2px;
+}
+
+select {
+  border-radius: 7px;
+}
+
+button {
+  border-radius: 7px;
+  border-color: white;
+}
+
+p {
+  color: white;
+  background-color: rgb(66, 122, 141);
+  border-radius: 7px;
+  width: 240px;
+  height: 20px;
+  padding: 5px;
+  padding-left: 8px;
+}

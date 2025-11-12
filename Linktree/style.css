@@ -1,0 +1,49 @@
+img {
+  margin-top: 30px;
+  border-radius: 80px;
+  width: 120px;
+  border: solid;
+  border-width: 3px;
+}
+#titulo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 17px;
+}
+#descricao {
+  margin-top: -26px;
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+.contatos.primeiro {
+  margin-top: 40px;
+}
+.contatos.segundo {
+  margin-bottom: 35px;
+}
+.contatos {
+  margin-bottom: -6px;
+  font-size: 15px;
+}
+body {
+  background-image: linear-gradient(to top, rgb(7, 7, 7), rgb(134, 124, 116));
+  font-family: Trebuchet MS;
+  color: white;
+  text-align: center;
+}
+a {
+  font-weight: bold;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 17px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(81, 74, 69);
+}

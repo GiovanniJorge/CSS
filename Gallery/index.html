@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webpage Name</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>My Cat Collection</h1>
+    <div class="gallery">
+      <div class="item">
+        <img onclick="showModal(this)" alt="An image of a cat" class="thumbnail" src="https://mimo.app/i/whispurr.png">
+        <h2>Whispurr</h2>
+      </div>
+      <div class="item">
+        <img onclick="showModal(this)" alt="An image of a cat" class="thumbnail" src="https://mimo.app/i/babaganoosh.png">
+        <h2>Cat</h2>
+      </div>
+      <div class="item">
+        <img onclick="showModal(this)" alt="An image of a cat" class="thumbnail" src="https://mimo.app/i/nacho.png">
+        <h2>Meow</h2>
+      </div>
+    </div>
+    <div id="modal">
+      <span id="modal-close-button">x</span>
+      <img id="modal-content">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>
+      Conversor de Medidas
+    </h1>
+
+    <!-- Conversor de distancia -->
+    <h2>Distância</h2>
+    <input type="number" placeholder="Enter number" id="userInputDistancia">
+    <div>
+    <select id="unitDist">
+      <option value="milesToKm">Miles to Kilometers</option>
+      <option value="kmToMiles">Kilometers to Miles</option>
+    </select>
+    <button onclick="convertDistancia()">Convert</button>
+    </div>
+    <p>Result: <span id="resultElementDist">0</span></p>
+    <script src="script.js"></script>
+
+    <!-- Conversor de temperatura -->
+    <h2>Temperatura</h2>
+     <input type="number" placeholder="Enter number" id="userInputTemperatura">
+    <div>
+    <select id="unitTemp">
+      <option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+      <option value="fahrenheitToCelsius">Fahrenheit to Celsius</option>
+    </select>
+    <button onclick="convertTemperatura()">Convert</button>
+    </div>
+    <p>Result: <span id="resultElementTemp">0</span>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
